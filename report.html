@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multireader — Report a problem</title><link rel="icon" href="icon.png">
+<meta name="description" content="Fast, private document viewer: PDF, Word, Excel, CSV, JSON, XML and images. No ads, no sign-up, works offline.">
+<style>
+/* Стиль сайту: світла й темна теми, мобільні — з 360 px. */
+:root{--bg:#fff;--fg:#1b1b1f;--muted:#5f6068;--accent:#2b5bd7;--line:#e4e4ea;--card:#f4f5f8}
+@media (prefers-color-scheme:dark){:root{--bg:#121316;--fg:#e6e6ea;--muted:#a0a1aa;--accent:#9db6ff;--line:#2b2c31;--card:#1c1d21}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:16px 16px 56px}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:4px 0 12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--fg);text-decoration:none}
+.brand img{width:34px;height:34px;border-radius:8px}
+select{font:inherit;font-size:15px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.hero{text-align:center;padding:40px 0 28px}
+.logo{width:96px;height:96px;border-radius:22px;box-shadow:0 10px 30px rgba(43,91,215,.25)}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.1;letter-spacing:-.02em;margin:22px auto 12px;max-width:760px}
+.lead{color:var(--muted);font-size:clamp(17px,2.4vw,21px);max-width:640px;margin:0 auto}
+.stores{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 22px;border-radius:12px;background:var(--fg);color:var(--bg);font-weight:600;text-decoration:none}
+.btn.soon{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.shots{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 4px 20px;margin:8px -16px 0;padding-left:16px}
+.shots img{flex:0 0 auto;width:min(260px,62vw);height:auto;border-radius:22px;scroll-snap-align:center;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+h2{font-size:clamp(24px,3.5vw,32px);letter-spacing:-.01em;margin:44px 0 14px}.center{text-align:center}
+h3{font-size:18px;margin:22px 0 4px}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.group{background:var(--card);border-radius:16px;padding:16px 18px;border-top:5px solid var(--c)}
+.group b{display:block;color:var(--c);font-size:18px}.group span{color:var(--muted);font-size:14px;letter-spacing:.02em}
+@media (prefers-color-scheme:dark){.group{border-top-color:var(--cd)}.group b{color:var(--cd)}}
+.privacy{margin-top:44px;background:var(--card);border-radius:20px;padding:6px 24px 22px}
+.muted{color:var(--muted)}a{color:var(--accent)}.nav{margin-top:32px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;gap:16px;flex-wrap:wrap}
+</style></head><body><main>
+<header><a class="brand" href="index.html"><img src="icon.png" alt="">Multireader</a>
+<select id="lang" aria-label="Language"><option value="en">English</option><option value="uk">Українська</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="it">Italiano</option><option value="pl">Polski</option><option value="pt-BR">Português (Brasil)</option></select></header>
+<section lang="en" data-lang="en"><h1>Report a problem</h1><p class="lead">Thank you for helping make Multireader better.</p>
+<ol><li>Multireader has already copied your app version, phone model and file format — paste them into your message. The file name is not included.</li><li>Describe what went wrong and what you expected. A screenshot helps a lot.</li><li>If the problem is with a specific file and it contains no personal data, attach it to an email.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Post in the testers group</a></p><p class="muted">For Android testers: needs a Google account and joining the group. Other testers will see your message.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20problem">Write an email</a></p>
+<p class="nav"><a href="index.html?lang=en">← Multireader</a></p></section>
+<section lang="uk" data-lang="uk" hidden><h1>Повідомити про помилку</h1><p class="lead">Дякуємо, що допомагаєте зробити Multireader кращим.</p>
+<ol><li>Multireader уже скопіював версію застосунку, модель телефона й формат файлу — вставте їх у повідомлення. Назви файлу там немає.</li><li>Опишіть, що пішло не так і що ви очікували. Знімок екрана дуже допоможе.</li><li>Якщо проблема з конкретним файлом і в ньому немає особистих даних — прикріпіть його до листа.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Написати в групу тестувальників</a></p><p class="muted">Для тестувальників Android: потрібен Google-акаунт і вступ до групи. Повідомлення побачать інші тестувальники.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0">Написати листом</a></p>
+<p class="nav"><a href="index.html?lang=uk">← Multireader</a></p></section>
+<section lang="de" data-lang="de" hidden><h1>Fehler melden</h1><p class="lead">Danke, dass Sie Multireader besser machen.</p>
+<ol><li>Multireader hat App-Version, Handymodell und Dateiformat bereits kopiert – fügen Sie sie in Ihre Nachricht ein. Der Dateiname ist nicht dabei.</li><li>Beschreiben Sie, was schiefgelaufen ist und was Sie erwartet haben. Ein Screenshot hilft sehr.</li><li>Betrifft das Problem eine bestimmte Datei ohne persönliche Daten, hängen Sie sie an eine E-Mail an.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">In der Testergruppe schreiben</a></p><p class="muted">Für Android-Tester: Google-Konto und Beitritt zur Gruppe nötig. Andere Tester sehen Ihre Nachricht.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20Fehler">E-Mail schreiben</a></p>
+<p class="nav"><a href="index.html?lang=de">← Multireader</a></p></section>
+<section lang="es" data-lang="es" hidden><h1>Informar de un problema</h1><p class="lead">Gracias por ayudar a mejorar Multireader.</p>
+<ol><li>Multireader ya ha copiado la versión de la app, el modelo del móvil y el formato del archivo: pégalos en tu mensaje. El nombre del archivo no se incluye.</li><li>Describe qué salió mal y qué esperabas. Una captura de pantalla ayuda mucho.</li><li>Si el problema es con un archivo concreto y no contiene datos personales, adjúntalo a un correo.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Escribir en el grupo de testers</a></p><p class="muted">Para testers de Android: necesitas una cuenta de Google y unirte al grupo. Otros testers verán tu mensaje.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20problema">Escribir un correo</a></p>
+<p class="nav"><a href="index.html?lang=es">← Multireader</a></p></section>
+<section lang="fr" data-lang="fr" hidden><h1>Signaler un problème</h1><p class="lead">Merci de nous aider à améliorer Multireader.</p>
+<ol><li>Multireader a déjà copié la version de l'app, le modèle du téléphone et le format du fichier : collez-les dans votre message. Le nom du fichier n'y figure pas.</li><li>Décrivez ce qui n'a pas marché et ce que vous attendiez. Une capture d'écran aide beaucoup.</li><li>Si le problème concerne un fichier précis sans données personnelles, joignez-le à un e-mail.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Écrire dans le groupe des testeurs</a></p><p class="muted">Pour les testeurs Android : un compte Google et l'adhésion au groupe sont nécessaires. Les autres testeurs verront votre message.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%20%3A%20probl%C3%A8me">Écrire un e-mail</a></p>
+<p class="nav"><a href="index.html?lang=fr">← Multireader</a></p></section>
+<section lang="it" data-lang="it" hidden><h1>Segnala un problema</h1><p class="lead">Grazie per aiutarci a migliorare Multireader.</p>
+<ol><li>Multireader ha già copiato la versione dell'app, il modello del telefono e il formato del file: incollali nel messaggio. Il nome del file non è incluso.</li><li>Descrivi cosa non ha funzionato e cosa ti aspettavi. Uno screenshot aiuta molto.</li><li>Se il problema riguarda un file preciso senza dati personali, allegalo a un’email.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Scrivi nel gruppo dei tester</a></p><p class="muted">Per i tester Android: servono un account Google e l’iscrizione al gruppo. Gli altri tester vedranno il messaggio.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20problema">Scrivi un'email</a></p>
+<p class="nav"><a href="index.html?lang=it">← Multireader</a></p></section>
+<section lang="pl" data-lang="pl" hidden><h1>Zgłoś problem</h1><p class="lead">Dziękujemy, że pomagasz ulepszać Multireader.</p>
+<ol><li>Multireader skopiował już wersję aplikacji, model telefonu i format pliku — wklej je do wiadomości. Nazwy pliku tam nie ma.</li><li>Opisz, co poszło nie tak i czego się spodziewałeś. Zrzut ekranu bardzo pomoże.</li><li>Jeśli problem dotyczy konkretnego pliku bez danych osobowych, dołącz go do e-maila.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Napisz w grupie testerów</a></p><p class="muted">Dla testerów Androida: potrzebne konto Google i dołączenie do grupy. Inni testerzy zobaczą wiadomość.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20problem">Napisz e-mail</a></p>
+<p class="nav"><a href="index.html?lang=pl">← Multireader</a></p></section>
+<section lang="pt-BR" data-lang="pt-BR" hidden><h1>Informar um problema</h1><p class="lead">Obrigado por ajudar a melhorar o Multireader.</p>
+<ol><li>O Multireader já copiou a versão do app, o modelo do celular e o formato do arquivo: cole-os na sua mensagem. O nome do arquivo não vai junto.</li><li>Descreva o que deu errado e o que você esperava. Uma captura de tela ajuda muito.</li><li>Se o problema for com um arquivo específico sem dados pessoais, anexe-o a um e-mail.</li></ol>
+<p><a class="btn" href="https://groups.google.com/g/multireaderapp">Escrever no grupo de testadores</a></p><p class="muted">Para testadores do Android: é preciso uma conta Google e entrar no grupo. Outros testadores verão sua mensagem.</p><p><a class="btn soon" href="mailto:danutakiev@gmail.com?subject=Multireader%3A%20problema">Escrever um e-mail</a></p>
+<p class="nav"><a href="index.html?lang=pt-BR">← Multireader</a></p></section>
+<footer><span>© 2026 Multireader</span><a href="privacy.html">Privacy</a><a href="mailto:danutakiev@gmail.com">danutakiev@gmail.com</a></footer>
+</main><script>
+const codes=["en","uk","de","es","fr","it","pl","pt-BR"];
+const pick=()=>{const q=new URLSearchParams(location.search).get('lang');if(codes.includes(q))return q;
+for(const l of navigator.languages||[navigator.language]){if(codes.includes(l))return l;const b=l.split('-')[0];if(b==='pt')return 'pt-BR';if(codes.includes(b))return b;}return 'en';};
+const show=c=>{document.querySelectorAll('section').forEach(s=>s.hidden=s.dataset.lang!==c);document.documentElement.lang=c;document.getElementById('lang').value=c;};
+document.getElementById('lang').onchange=e=>{show(e.target.value);history.replaceState(null,'','?lang='+e.target.value);};
+show(pick());
+</script></body></html>
